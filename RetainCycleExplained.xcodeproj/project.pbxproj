@@ -13,6 +13,10 @@
 		FC53523929A0BBAE00957C49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC53523729A0BBAE00957C49 /* Main.storyboard */; };
 		FC53523B29A0BBB000957C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC53523A29A0BBB000957C49 /* Assets.xcassets */; };
 		FC53523E29A0BBB000957C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC53523C29A0BBB000957C49 /* LaunchScreen.storyboard */; };
+		FC53524629A0BBD300957C49 /* Instructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC53524529A0BBD300957C49 /* Instructor.swift */; };
+		FC53524829A0BBDC00957C49 /* WeakInstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC53524729A0BBDC00957C49 /* WeakInstructor.swift */; };
+		FC53524A29A0BBE700957C49 /* WeakSelfClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC53524929A0BBE700957C49 /* WeakSelfClosures.swift */; };
+		FC53524C29A0BF1C00957C49 /* WeakSelfExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC53524B29A0BF1C00957C49 /* WeakSelfExtra.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		FC53523A29A0BBB000957C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC53523D29A0BBB000957C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC53523F29A0BBB000957C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC53524529A0BBD300957C49 /* Instructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructor.swift; sourceTree = "<group>"; };
+		FC53524729A0BBDC00957C49 /* WeakInstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakInstructor.swift; sourceTree = "<group>"; };
+		FC53524929A0BBE700957C49 /* WeakSelfClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfClosures.swift; sourceTree = "<group>"; };
+		FC53524B29A0BF1C00957C49 /* WeakSelfExtra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfExtra.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				FC53523A29A0BBB000957C49 /* Assets.xcassets */,
 				FC53523C29A0BBB000957C49 /* LaunchScreen.storyboard */,
 				FC53523F29A0BBB000957C49 /* Info.plist */,
+				FC53524529A0BBD300957C49 /* Instructor.swift */,
+				FC53524729A0BBDC00957C49 /* WeakInstructor.swift */,
+				FC53524929A0BBE700957C49 /* WeakSelfClosures.swift */,
+				FC53524B29A0BF1C00957C49 /* WeakSelfExtra.swift */,
 			);
 			path = RetainCycleExplained;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC53524629A0BBD300957C49 /* Instructor.swift in Sources */,
+				FC53524C29A0BF1C00957C49 /* WeakSelfExtra.swift in Sources */,
+				FC53524A29A0BBE700957C49 /* WeakSelfClosures.swift in Sources */,
 				FC53523629A0BBAE00957C49 /* ViewController.swift in Sources */,
 				FC53523229A0BBAE00957C49 /* AppDelegate.swift in Sources */,
 				FC53523429A0BBAE00957C49 /* SceneDelegate.swift in Sources */,
+				FC53524829A0BBDC00957C49 /* WeakInstructor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
